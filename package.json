@@ -1,0 +1,25 @@
+{
+  "name": "typescript-template",
+  "version": "0.1.0",
+  "description": "discord.jsとTypeScriptを使ってボットを作るためのテンプレート",
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "start:dev": "ts-node ./src/index.ts",
+    "compile": "tsc -p .",
+    "compile:test": "tsc -p . --noEmit",
+    "lint": "eslint --ext .ts --ignore-path .gitignore .",
+    "lint:fix": "eslint --ext .ts --ignore-path .gitignore . --fix",
+    "test": "npm run lint && npm run compile:test"
+  },
+  "dependencies": {
+    "discord.js": "^11.5.1"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.4",
+    "@typescript-eslint/eslint-plugin": "^2.1.0",
+    "@typescript-eslint/parser": "^2.1.0",
+    "eslint": "^6.3.0",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.6.2"
+  }
+}
