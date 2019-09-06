@@ -1,0 +1,14 @@
+{
+  "eslint.packageManager": "npm",
+  "npm.packageManager": "npm",
+  "eslint.validate": [
+    "javascript",
+    {
+      "language": "typescript",
+      "autoFix": true
+    }
+  ],
+  "files.associations": {
+    "*.ts": "typescript"
+  }
+}
