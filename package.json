@@ -15,7 +15,7 @@
     "discord.js": "^11.5.1"
   },
   "devDependencies": {
-    "@types/node": "^12.7.9",
+    "@types/node": "^12.7.11",
     "@typescript-eslint/eslint-plugin": "^2.3.2",
     "@typescript-eslint/parser": "^2.3.2",
     "eslint": "^6.5.1",
