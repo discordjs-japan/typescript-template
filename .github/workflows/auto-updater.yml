@@ -1,0 +1,14 @@
+name: AutoUpdater
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - uses: discordjs-japan/actions-ncu@master
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
