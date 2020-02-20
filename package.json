@@ -20,6 +20,6 @@
     "@typescript-eslint/parser": "^2.20.0",
     "eslint": "^6.8.0",
     "ts-node": "^8.6.2",
-    "typescript": "^3.7.5"
+    "typescript": "^3.8.2"
   }
 }
