@@ -12,7 +12,7 @@
     "test": "npm run lint && npm run compile:test"
   },
   "dependencies": {
-    "discord.js": "^12.1.1"
+    "discord.js": "^12.2.0"
   },
   "devDependencies": {
     "@types/node": "^13.11.1",
