@@ -1,5 +1,7 @@
 # discord.js TypeScript テンプレート
 
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
 Visual Studio Code を使用することを推奨します。
 
 ## スクリプト

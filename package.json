@@ -9,7 +9,9 @@
     "compile:test": "tsc -p . --noEmit",
     "lint": "eslint --ext .ts --ignore-path .gitignore .",
     "lint:fix": "eslint --ext .ts --ignore-path .gitignore . --fix",
-    "test": "npm run lint && npm run compile:test"
+    "test": "npm run lint && npm run compile:test",
+    "//": "Heroku Script",
+    "postbuild": "tsc"
   },
   "dependencies": {
     "discord.js": "^12.2.0"
