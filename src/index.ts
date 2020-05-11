@@ -4,7 +4,7 @@ const client = new Client()
 
 function replyAvatarURL(message: Message): void {
   if (message.content === '私のアバター') {
-    message.reply(message.author.avatarURL)
+    message.reply(message.author.avatarURL())
   }
 }
 
