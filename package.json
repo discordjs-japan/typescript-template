@@ -14,7 +14,7 @@
     "heroku-postbuild": "tsc -p ."
   },
   "dependencies": {
-    "discord.js": "^12.3.1"
+    "discord.js": "^12.5.3"
   },
   "devDependencies": {
     "@types/node": "^16.4.10",
